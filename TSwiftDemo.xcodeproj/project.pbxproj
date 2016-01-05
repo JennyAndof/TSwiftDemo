@@ -14,6 +14,8 @@
 		668831E11C3AC15E00C9B7B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 668831DF1C3AC15E00C9B7B9 /* LaunchScreen.storyboard */; };
 		668831EC1C3AC15E00C9B7B9 /* TSwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668831EB1C3AC15E00C9B7B9 /* TSwiftDemoTests.swift */; };
 		668831F71C3AC15E00C9B7B9 /* TSwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668831F61C3AC15E00C9B7B9 /* TSwiftDemoUITests.swift */; };
+		668832051C3AC2EE00C9B7B9 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668832041C3AC2EE00C9B7B9 /* RootViewController.swift */; };
+		66E16CD71C3B9D2C00B394FC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E16CD61C3B9D2C00B394FC /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		668831F21C3AC15E00C9B7B9 /* TSwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		668831F61C3AC15E00C9B7B9 /* TSwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSwiftDemoUITests.swift; sourceTree = "<group>"; };
 		668831F81C3AC15E00C9B7B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		668832041C3AC2EE00C9B7B9 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		66E16CD61C3B9D2C00B394FC /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				668831DD1C3AC15E00C9B7B9 /* Assets.xcassets */,
 				668831DF1C3AC15E00C9B7B9 /* LaunchScreen.storyboard */,
 				668831E21C3AC15E00C9B7B9 /* Info.plist */,
+				668832041C3AC2EE00C9B7B9 /* RootViewController.swift */,
+				66E16CD61C3B9D2C00B394FC /* DetailViewController.swift */,
 			);
 			path = TSwiftDemo;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			files = (
 				668831D91C3AC15E00C9B7B9 /* ViewController.swift in Sources */,
 				668831D71C3AC15E00C9B7B9 /* AppDelegate.swift in Sources */,
+				668832051C3AC2EE00C9B7B9 /* RootViewController.swift in Sources */,
+				66E16CD71C3B9D2C00B394FC /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +490,7 @@
 				668831FD1C3AC15E00C9B7B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		668831FE1C3AC15E00C9B7B9 /* Build configuration list for PBXNativeTarget "TSwiftDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +499,7 @@
 				668832001C3AC15E00C9B7B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		668832011C3AC15E00C9B7B9 /* Build configuration list for PBXNativeTarget "TSwiftDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +508,7 @@
 				668832031C3AC15E00C9B7B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
