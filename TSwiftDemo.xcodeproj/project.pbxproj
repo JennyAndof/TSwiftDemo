@@ -18,6 +18,7 @@
 		66E16CD71C3B9D2C00B394FC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E16CD61C3B9D2C00B394FC /* DetailViewController.swift */; };
 		66E16CDB1C3BC28600B394FC /* MathSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E16CDA1C3BC28600B394FC /* MathSum.m */; };
 		66E16CDD1C3BC53300B394FC /* SwiftMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E16CDC1C3BC53300B394FC /* SwiftMath.swift */; };
+		66E16CE51C3CAD8000B394FC /* 111.png in Resources */ = {isa = PBXBuildFile; fileRef = 66E16CE41C3CAD8000B394FC /* 111.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		66E16CD91C3BC28600B394FC /* MathSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathSum.h; sourceTree = "<group>"; };
 		66E16CDA1C3BC28600B394FC /* MathSum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathSum.m; sourceTree = "<group>"; };
 		66E16CDC1C3BC53300B394FC /* SwiftMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftMath.swift; sourceTree = "<group>"; };
+		66E16CE41C3CAD8000B394FC /* 111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 111.png; path = ../../../../Downloads/111.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		668831D51C3AC15E00C9B7B9 /* TSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				66E16CE41C3CAD8000B394FC /* 111.png */,
 				668831D61C3AC15E00C9B7B9 /* AppDelegate.swift */,
 				668831D81C3AC15E00C9B7B9 /* ViewController.swift */,
 				668831DA1C3AC15E00C9B7B9 /* Main.storyboard */,
@@ -247,6 +250,7 @@
 			files = (
 				668831E11C3AC15E00C9B7B9 /* LaunchScreen.storyboard in Resources */,
 				668831DE1C3AC15E00C9B7B9 /* Assets.xcassets in Resources */,
+				66E16CE51C3CAD8000B394FC /* 111.png in Resources */,
 				668831DC1C3AC15E00C9B7B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

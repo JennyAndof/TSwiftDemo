@@ -36,7 +36,7 @@ class RootViewController:UIViewController,UITableViewDelegate,UITableViewDataSou
     }
     
     //UITableView`s Delegate Method
-    func tableView(tableView: UITableView, didDeselectRowAtIndexPath indexPath: NSIndexPath) {
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         self.tableView?.deselectRowAtIndexPath(indexPath, animated: true);
         let detailViewController = DetailViewController();
         detailViewController.title = self.items?.objectAtIndex(indexPath.row) as? String;
